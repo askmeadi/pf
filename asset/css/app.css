@@ -162,3 +162,11 @@ footer{background: #333333;color: #d4d4d4;}
 .main-footer ul{margin-left: 0;}
 .main-footer h4{border-bottom: 1px dotted #777;padding-bottom: 10px;}
 
+.login-page
+ {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+

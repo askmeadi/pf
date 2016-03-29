@@ -26,4 +26,10 @@ class Main extends CI_Controller {
 		$this->load->view('pages/' . $page);
 		$this->load->view('templates/footer');
 	}
+
+	public function login()
+	{
+		$page = 'login';
+		$this->load->view('pages/' . $page);
+	}
 }
